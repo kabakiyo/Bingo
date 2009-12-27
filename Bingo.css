@@ -1,0 +1,94 @@
+body {
+	color: #FFFFFF;
+	background: #000000;
+	background:transparent url(sakura13_1.gif);
+	bottom:0;
+	left:0;
+	margin:2px 2px 0 12px;
+	overflow:hidden;
+	position:absolute;
+	right:0;
+	top:0;
+	font-family:arial,sans-serif;
+}
+
+#MAIN {
+	margin: 5px;
+}
+
+#TITLE {
+	width: 100%;
+	height: 150px;
+	font-size: 100px;
+	text-align: center;
+	position:absolute;
+}
+
+#LOT {
+	top: 150px;
+	left:  25px;
+	width: 450px;
+	height: 450px;
+	font-size: 400px;
+	font-weight: bold;
+	overflow:visible;
+	position:absolute;
+	text-align: center;
+}
+
+#RESULT {
+	top: 150px;
+	left: 475px;
+	width: 750px;
+	height: 450px;
+/*	right: auto; */
+	float: left;
+	color: #000000;
+	bottom:0;
+	overflow:visible;
+	position:absolute;
+}
+
+#SWITCH {
+	top: 600px;
+	width: 450px;
+	margin-top: 10px;
+	font-size: 100px;
+	overflow:visible;
+	position:absolute;	
+}
+
+.box {
+	float:left;
+	min-height:1px;
+	width: 148px;
+	margin-right: 2px;
+	background:transparent;
+}
+
+.head {
+	margin-bottom: 2px;
+	height: 50px;
+	text-align: center;
+	font-size: 30px;
+/*	background:pink;
+	display: none;*/
+}
+
+.tile {
+	background-color: pink;
+}
+
+.notile {
+	background-color: #ffffff;
+}
+
+.item {
+	float:left;
+	min-height:1px;
+	width: 74px;
+	height: 50px;
+	font-size: 45px;
+	font-weight: bold;
+	text-align: center;
+}
